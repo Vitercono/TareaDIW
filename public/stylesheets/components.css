@@ -1,0 +1,19 @@
+.button{
+    font-size: calc(clamp(2rem,var(--font-size-h1-cta),4rem) / 2);
+    border:solid 2px var(--font-color-cta);
+    padding:0.6rem 1rem;
+    background-color: var(--link-color);
+    color:white;
+    border-radius: 4px;
+    box-shadow: 0 0 6px var(--primary-color);
+    transition: 0.32s;
+    font-family: "Lilita One", "sans-serif";
+    text-decoration: none;
+  
+    &:hover{
+      color: var(--link-color);
+      border-color: var(--link-color);
+      background-color: white;
+      transform: scale(1.2);
+    }
+  }
